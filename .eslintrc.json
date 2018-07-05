@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": ["semistandard"],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "classes": true,
+      "defaultParams": true
+    }
+  },
+  "rules": {
+    "indent": [2, 2],
+    "camelcase": "off",
+    "padded-blocks": "off",
+    "operator-linebreak": "off",
+    "no-throw-literal": "off",
+    "no-useless-escape": "off"
+  }
+}

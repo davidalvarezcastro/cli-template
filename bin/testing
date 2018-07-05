@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+process.title = 'testing';
+let testing = require(path.join('..', 'dist', 'bundle'));
